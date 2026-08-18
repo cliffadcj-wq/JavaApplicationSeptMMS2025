@@ -1,10 +1,10 @@
 public class SingleSelection{
-	public static void(String[] args) {
-		int age = 21;
+	public static void main(String[] args){
+		int age = 17;
 		
-		if(age >= 18) {
-			System.out.printf("Oh wow,you are %d years old and you are now an adult",age);
-			System.out.printf("I am happy to be an adult");
+		if(age >= 18){
+			System.out.printf("Oh wow, you are %d years old and you are now an adult%n",age);
+			System.out.println("I am happy to be an Adult");
 		}
 	}
 }

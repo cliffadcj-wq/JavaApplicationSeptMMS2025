@@ -1,0 +1,31 @@
+import java.util.List;
+import java.util.ArrayList;
+
+public class Usinglist{
+	public static void main(String[] args){
+		List<String> cars = new ArrayList<>();
+		
+		cars.add("Toyota");
+		cars.add("BMW");
+		cars.add("Mercedes Bent");
+		cars.add("Toyota");
+		cars.add(1,"Ford");
+		
+		System.out.println(cars.size());
+		
+		//set the value of an elements
+		cars.set(1,"Dodge");
+		
+		//removing an element from the list
+		cars.remove(0);
+		
+		//get element using the indexing
+		System.out.printf("%s%n ",cars.get(1));
+		
+		System.out.printf("The size of the list is %d%n",cars.size());
+		
+		for(String car : cars){
+			System.out.println(car);
+		}
+	}
+}
